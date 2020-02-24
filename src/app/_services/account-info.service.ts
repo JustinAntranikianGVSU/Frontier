@@ -82,6 +82,7 @@ export class AccountInfoService {
 
   constructor(private http: HttpClient) { }
 
+  // Todo call api when CORS are enabled on the web server.
   // public getAccounts(): Observable<any> {
   //   return this.http.get('https://frontiercodingtests.azurewebsites.net/api/accounts/getall')
   // }
